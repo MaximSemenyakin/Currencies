@@ -1,6 +1,6 @@
 package com.example.currencies.rest
 
-data class CoinGecko(
+data class GeckoCoin(
     val id: String,
     val symbol: String,
     val name: String,
