@@ -12,7 +12,7 @@ data class GeckoCoin(
     val price_change_percentage_24h: Float,
     val market_cap_change_percentage_24h: Float,
     val circulating_supply: Double,
-    val total_supply: Long,
+    val total_supply: Double,
     val ath: Float,
     val ath_change_percentage: Float
 )

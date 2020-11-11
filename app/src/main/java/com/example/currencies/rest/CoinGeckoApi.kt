@@ -20,7 +20,7 @@ interface CoinGeckoApi {
 
     @GET("coins/{id}/market_chart")
     fun getCoinMarketChart (
-        @Path("id") id: String,
+        @Path("id") id: String?,
         @Query("vs_currency") vsCurrency: String = "usd",
         @Query("days") days: String = "max"
     ): Observable<GeckoCoinChart>
